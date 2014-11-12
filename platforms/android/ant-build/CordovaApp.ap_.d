@@ -29,6 +29,7 @@ C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\ant-build\res\drawable-por
 C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\ant-build\res\drawable-xhdpi\icon.png \
 C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www \
 C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\_where-is-www.txt \
+C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\area_map.html \
 C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\cordova.js \
 C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\cordova_plugins.js \
 C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\css \
@@ -36,6 +37,12 @@ C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\img \
 C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\index.html \
 C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\js \
 C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\css\index.css \
+C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\img\area_map.png \
+C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\img\avatar.jpg \
+C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\img\btn_about.png \
+C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\img\btn_area.png \
+C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\img\btn_campus.png \
+C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\img\campus_map.jpg \
 C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\img\logo.png \
 C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\js\index.js \
 C:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\ant-build\AndroidManifest.xml \
