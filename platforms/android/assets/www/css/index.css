@@ -107,10 +107,12 @@ h1 {
 
 ul#buttons {
     margin: 0px;
+    padding: 0px;
 }
 
 ul#buttons li {
     list-style-type: none;
+    margin: 0px;
 }
 
 ul#buttons li img {

@@ -29,7 +29,9 @@ c:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\ant-build\res\drawable-por
 c:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\ant-build\res\drawable-xhdpi\icon.png \
 c:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www \
 c:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\_where-is-www.txt \
+c:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\about.html \
 c:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\area_map.html \
+c:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\campus_map.html \
 c:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\cordova.js \
 c:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\cordova_plugins.js \
 c:\Users\Rajesh\Cordova\GrizzlyMaps\platforms\android\assets\www\css \
