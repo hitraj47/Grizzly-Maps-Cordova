@@ -1,39 +1,102 @@
 <!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Grizzly Maps</title>
-    </head>
-    <body>
-        <h1>Grizzly Maps</h1>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<!-- TODO Minify! -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.js"></script>
+		
+	</head>
 
-        <ul id="buttons">
-            <li><a href="area_map.html"><img src="img/btn_area.png" alt="Area Map" /></a></li>
-            <li><a href="campus_map.html"><img src="img/btn_campus.png" alt="Campus Map" /></a></li>
-            <li><a href="about.html"><img src="img/btn_about.png" alt="About" /></a></li>
-        </ul>
-    </body>
+	<body onload="onBodyLoad()">
+		<!-- jquery example from: http://www.w3schools.com/jquerymobile/tryit.asp?filename=tryjqmob_button -->
+		
+		<div data-role="page" id="pageone" style="text-transform:none">
+			<div data-role="header" data-position="fixed">
+				<h1>Grizzly Maps</h1>
+			</div>
+			<div data-role="content">
+
+				<div style="text-align:center;">
+					<a href="#areamap" data-role="button" data-inline="true"><img src="img/btn_area.png" alt="Area Map" /></a>
+					<br />
+					<a href="#campusmap" data-role="button" data-inline="true"><img src="img/btn_campus.png" alt="Campus Map" /></a>
+					<br />
+					<a href="#about" data-role="button" data-inline="true"><img src="img/btn_about.png" alt="About" /></a>
+				</div>
+				   
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<h1 style="text-transform:none"><a href="#" onclick="alert('test');">Click me...</a></h1>
+			</div>
+		</div>
+		
+		<div data-role="page" id="areamap" style="text-transform:none">
+			<div data-role="header">
+				<h1>Area Map</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+					<div align="center">
+					<p><img src="img/area_map.png" alt="Area map" /></p>
+					    <p class="button" style="text-transform:none">
+				            <a href="#pageone" data-role="button" data-inline="true">Go Back</a>
+				       </p>
+				    </div>
+			</div>
+
+			<div data-role="footer" style="text-transform:none">
+				<h1>GGC ITEC 4550</h1>
+			</div>
+		</div>
+
+		<div data-role="page" id="campusmap" style="text-transform:none">
+			<div data-role="header">
+				<h1>Campus Map</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+					<div align="center">
+					<p><img src="img/campus_map.jpg" alt="Campus Map" /></p>
+					    <p id="backBtn" style="text-transform:none">
+				            <a href="#pageone" data-role="button" data-inline="true">Go Back</a>
+				       </p>
+				    </div>
+			</div>
+
+			<div data-role="footer" style="text-transform:none">
+				<h1>GGC ITEC 4550</h1>
+			</div>
+		</div>
+
+		<div data-role="page" id="about" style="text-transform:none">
+			<div data-role="header">
+				<h1>About</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+					<div align="center">
+					<h2>Created by</h2>
+					<p>Raj Ramsaroop</p>
+					<p><img src="img/avatar.jpg" alt="avatar" /></p>
+					<p>ITEC 4550<br />
+					Fall 2014</p>
+					    <p id="backBtn" style="text-transform:none">
+				            <a href="#pageone" data-role="button" data-inline="true">Go Back</a>
+				       </p>
+				    </div>
+			</div>
+
+			<div data-role="footer" style="text-transform:none">
+				<h1>GGC ITEC 4550</h1>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
 </html>
